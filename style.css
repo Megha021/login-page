@@ -1,0 +1,178 @@
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.outer-container{
+    margin: 0;
+    padding: 0;
+}
+.hr{
+    background-color: rgb(104, 103, 103);
+    border-style: none;
+    border-top-width: 1px;
+    height: 0.2px;
+    width: 25%;
+    border-color: transparent;
+    position :absolute;
+    top:183px;
+    left:68px;
+}    
+.hr2{
+    background-color: rgb(104, 103, 103);
+    border-style: none;
+    border-top-width: 1px;
+    height: 0.2px;
+    width: 25%;
+    border-color: transparent;
+    position :absolute;
+    top:183px;
+    left:185px;
+}
+    
+h1,h3{
+    color: #7e7e9f;
+    font-family:Gabriola ;
+}
+.middle{
+    border: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    position: absolute;
+    left:50%;
+    top: 30%;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 2px 10px -2px rgb(104, 103, 103);
+}
+.label1{
+    position: absolute;
+    bottom: 50%;
+
+}
+.divider :hover {
+    box-shadow:  0px 2px 12px -2px #a3a2a2;
+    border-radius: 1mm;
+}
+
+.button{
+    border-radius: 4px;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+}
+.button1{
+    background-color:#96a8ca;
+    color: white;
+    border: 2px solid #7e7e9f;
+}
+.button1:hover {
+    background-color: #7e7e9f;
+}
+.button2{
+    border: 2px solid rgb(167, 165, 165);
+    background-color: white;
+    color: rgb(167, 165, 165);
+}
+.button2:hover {
+    background-color: rgba(167, 165, 165, 0.281);
+}
+
+
+/*     INPUT form style   */
+input[type="text"]{
+    background: transparent ;
+    border: none;
+    border-bottom: 2px solid #828283;
+    color: #000000;
+    font-size: 16px;
+    padding: 0px 0;
+    height: 37px;
+    width:90%;
+}
+input[type="email"]{
+    background: transparent ;
+    border: none;
+    border-bottom: 2px solid #828283;
+    color: #000000;
+    font-size: 16px;
+    height:37px;
+    padding: 0px 0;
+    
+    width:90%;
+}
+input[type="password"]{
+    background: transparent ;
+    border: none;
+    border-bottom: 2px solid #828283;
+    color: #000000;
+    font-size: 16px;
+    height:37px;
+    padding: 0px 0;
+    width:90%;
+}
+
+/* lable style after input field is in focus */
+
+input:focus + label, input:valid + label{
+    font-size: 12px;
+    color: #afbdcf;
+    top: -5px;
+    left:5px;
+    background: #ffffff;
+    padding: 0px 5px 0px 5px;
+
+}
+.input_wrap{
+    width:100%;
+    position:absolute;
+}
+.input_wrap label{
+    background: transparent ;
+    border: none;
+    font-family:arial;
+    font-size:16px;
+    color: #afbdcf;
+    position:absolute;
+    padding: 0px 0;
+    left:4px;
+    top:10px;
+    transition:0.2s ease all;
+    pointer-events: none;
+}
+input:focus {
+    outline: none;
+    border-color: rgb(104, 103, 103);
+    background: transparent ;
+    border: none;
+    border-bottom: 2px solid #828283;
+}
+
+.p{
+    position: absolute;
+    font-size: 9px;
+    left: 230px;
+    bottom:110px;
+
+}
+img{
+    height:785px;
+    width: 100%;
+    margin: 0 0 0 ;
+    margin-left: 0;
+}
+.f{
+    position: absolute;
+    font-size: 9px;
+    left: 250px;
+    bottom:125x;
+
+}
